@@ -1,13 +1,18 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import ReactDOM from 'react-dom';
 
-import myWidget from 'my-rollup-widget';
+import MyRollupWidget from 'my-rollup-widget';
+import MyWebpackWidget from 'my-webpack-widget';
 
 const App = () => {
-  return <div>Oi Sample</div>;
+  return (
+    <Fragment>
+      <MyRollupWidget />
+      <MyWebpackWidget />
+    </Fragment>
+  )
 }
 
-console.log(document.getElementById('root'))
 ReactDOM.render(<App />, document.getElementById('root'));
 
 // Hot Module Replacement

@@ -3,11 +3,13 @@
   "license": "MIT",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html --no-minify --public-url /"
+    "build": "rm -rf .cache && parcel build index.html --no-cache --no-minify --public-url /"
   },
   "dependencies": {
-    "my-rollup-widget": "file:my-rollup-widget-v1.0.0.tgz",
     "babel-preset-react-app": "^5.0.4",
+    "my-rollup-widget": "file:../rollup/my-rollup-widget-v1.0.0.tgz",
+    "my-webpack-widget": "file:../webpack/my-webpack-widget-v1.0.0.tgz",
+    "parcel-bundler": "latest",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
   },
