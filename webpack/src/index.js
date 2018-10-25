@@ -6,4 +6,19 @@ ReactDOM.render(
   document.getElementById('app')
 )
 
-export default () => console.log('yeah')
+export default {
+  oiTeste1: () => {
+    console.log('uhul1');
+  },
+
+  oiTeste2: () => {
+    console.log('uhul2');
+  }
+}
+
+export function named1() {
+}
+
+export function named2() {
+  console.log('uhul');
+}

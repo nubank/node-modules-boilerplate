@@ -1,0 +1,18 @@
+{
+  "name": "parcel-react-example",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --no-minify --public-url /"
+  },
+  "dependencies": {
+    "my-rollup-widget": "file:my-rollup-widget-v1.0.0.tgz",
+    "babel-preset-react-app": "^5.0.4",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "cross-env": "^5.1.1"
+  }
+}

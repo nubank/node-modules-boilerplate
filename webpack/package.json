@@ -2,7 +2,8 @@
   "name": "my-webpack-widget",
   "version": "1.0.0",
   "description": "",
-  "main": "myWidget",
+  "module": "dist/index.js",
+  "main": "dist/index.js",
   "files": [
     "./dist"
   ],
@@ -16,13 +17,11 @@
   "license": "ISC",
   "dependencies": {
     "react": "^16.6.0",
-    "react-dom": "^16.6.0",
-    "styled-components": "^4.0.2"
+    "react-dom": "^16.6.0"
   },
   "peerDependencies": {
-    "react": "^16.x",
-    "react-dom": "^16.x",
-    "styled-components": "^4.x"
+    "react": "16.x",
+    "react-dom": "16.x"
   },
   "devDependencies": {
     "@babel/cli": "^7.1.2",
