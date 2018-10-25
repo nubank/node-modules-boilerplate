@@ -9,6 +9,7 @@ module.exports = {
   output: {
     filename: 'browser.js',
     library: 'myWidget',
+    libraryExport: 'default',
     publicPath: ''
   },
 
