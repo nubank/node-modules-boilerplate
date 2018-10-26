@@ -2,7 +2,7 @@
 
 Link da apresentação:
 
-- [http://bit.ly/nu-front-slides](http://bit.ly/nu-front-slides)
+- [http://bit.ly/nu-front-presentation](http://bit.ly/nu-front-presentation)
 
 Este repositório possui 3 diretórios:
 
