@@ -1,5 +1,9 @@
 ## Nubank Node Modules Boilerplate
 
+Link da apresentação:
+
+- [http://bit.ly/nu-front-slides](http://bit.ly/nu-front-slides)
+
 Este repositório possui 3 diretórios:
 
 1. **rollup**: boilerplate de construção de um node módulo usando [**rollup.js**](https://rollupjs.org/guide/en)
