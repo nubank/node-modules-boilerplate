@@ -7,8 +7,8 @@
   },
   "dependencies": {
     "babel-preset-react-app": "^5.0.4",
-    "my-rollup-widget": "file:../rollup/my-rollup-widget-v1.0.0.tgz",
-    "my-webpack-widget": "file:../webpack/my-webpack-widget-v1.0.0.tgz",
+    "my-rollup-widget": "1.0.0",
+    "my-webpack-widget": "1.0.0",
     "parcel-bundler": "latest",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
