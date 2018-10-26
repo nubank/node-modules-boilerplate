@@ -6,12 +6,14 @@ const { join, resolve } = require('path');
 module.exports = {
   entry: join(__dirname, '..', 'src', 'index.js'),
 
+  mode: 'production',
+
+  optimization: { minimizer: [] },
+
   output: {
     filename: 'index.js',
-    globalObject: "(typeof window !== 'undefined' ? window : this)",
-    library: 'myWidget',
-    libraryExport: 'umd',
-    publicPath: ''
+    library: 'MyWebpackWidget',
+    libraryTarget: 'umd'
   },
   externals: {
     react: {
@@ -25,16 +27,8 @@ module.exports = {
       commonjs2: 'react-dom',
       amd: 'react-dom',
       root: 'ReactDOM'
-    },
-    ['styled-components']: {
-      commonjs: 'styled-components',
-      commonjs2: 'styled-components',
-      amd: 'styled-components',
-      root: 'styled'
     }
   },
-
-  mode: 'development',
 
   module: {
     rules: [

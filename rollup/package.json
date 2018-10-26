@@ -1,16 +1,14 @@
 {
   "name": "my-rollup-widget",
+  "description": "My Rollup Widget",
   "version": "1.0.0",
-  "description": "",
-  "module": "dist/index.js",
   "main": "dist/index.js",
   "files": [
     "./dist"
   ],
   "scripts": {
     "build:cjs": "rollup --config config/cjs.js",
-    "build:esm": "rollup --config config/esm.js",
-    "build:umd": "rollup --config config/umd.js"
+    "build:esm": "rollup --config config/esm.js"
   },
   "keywords": [],
   "author": "",

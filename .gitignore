@@ -1,2 +1,5 @@
 node_modules
+package
 *tgz
+.cache
+.DS_STORE

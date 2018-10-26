@@ -2703,7 +2703,7 @@ ms@^2.1.1:
 
 "my-webpack-widget@file:../webpack/my-webpack-widget-v1.0.0.tgz":
   version "1.0.0"
-  resolved "file:../webpack/my-webpack-widget-v1.0.0.tgz#aa15b0f4506b0ae2c9813c481951668faf7c815c"
+  resolved "file:../webpack/my-webpack-widget-v1.0.0.tgz#9e20e737cf34fe7a1ecb8b87a83c860b3bea32d5"
   dependencies:
     react "^16.6.0"
     react-dom "^16.6.0"

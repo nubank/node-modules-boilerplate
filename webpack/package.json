@@ -1,16 +1,13 @@
 {
   "name": "my-webpack-widget",
   "version": "1.0.0",
-  "description": "",
-  "module": "dist/index.js",
+  "description": "My Webpack Widget",
   "main": "dist/index.js",
   "files": [
     "./dist"
   ],
   "scripts": {
-    "build:umd": "webpack --config config/umd.js",
-    "build:var": "webpack --config config/var.js",
-    "build:window": "webpack --config config/window.js"
+    "build:umd": "webpack --config config/umd.js"
   },
   "keywords": [],
   "author": "",
@@ -32,7 +29,7 @@
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.4",
     "path": "^0.12.7",
-    "webpack": "^4.23.0",
-    "webpack-cli": "^3.1.2"
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.0"
   }
 }

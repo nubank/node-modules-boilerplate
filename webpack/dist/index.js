@@ -1,5 +1,14 @@
-var myWidget =
-/******/ (function(modules) { // webpackBootstrap
+(function webpackUniversalModuleDefinition(root, factory) {
+	if(typeof exports === 'object' && typeof module === 'object')
+		module.exports = factory(require("react"), require("react-dom"));
+	else if(typeof define === 'function' && define.amd)
+		define(["react", "react-dom"], factory);
+	else if(typeof exports === 'object')
+		exports["MyWebpackWidget"] = factory(require("react"), require("react-dom"));
+	else
+		root["MyWebpackWidget"] = factory(root["React"], root["ReactDOM"]);
+})(window, function(__WEBPACK_EXTERNAL_MODULE__0__, __WEBPACK_EXTERNAL_MODULE__2__) {
+return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
 /******/
@@ -82,43 +91,37 @@ var myWidget =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./src/index.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = 1);
 /******/ })
 /************************************************************************/
-/******/ ({
+/******/ ([
+/* 0 */
+/***/ (function(module, exports) {
 
-/***/ "./src/index.js":
-/*!**********************!*\
-  !*** ./src/index.js ***!
-  \**********************/
-/*! exports provided: default, named1, named2 */
+module.exports = __WEBPACK_EXTERNAL_MODULE__0__;
+
+/***/ }),
+/* 1 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"named1\", function() { return named1; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"named2\", function() { return named2; });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ \"react-dom\");\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);\n\n\nreact_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", null, \"Teste\"), document.getElementById('app'));\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\n  oiTeste1: function oiTeste1() {\n    console.log('uhul1');\n  },\n  oiTeste2: function oiTeste2() {\n    console.log('uhul2');\n  }\n});\nfunction named1() {}\nfunction named2() {\n  console.log('uhul');\n}\n\n//# sourceURL=webpack://myWidget/./src/index.js?");
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(2);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
+
+
+/* harmony default export */ __webpack_exports__["default"] = (function () {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "My Webpack Widget");
+});
 
 /***/ }),
-
-/***/ "react":
-/*!**************************************************************************************!*\
-  !*** external {"commonjs":"react","commonjs2":"react","amd":"react","root":"React"} ***!
-  \**************************************************************************************/
-/*! no static exports found */
+/* 2 */
 /***/ (function(module, exports) {
 
-eval("module.exports = undefined;\n\n//# sourceURL=webpack://myWidget/external_%7B%22commonjs%22:%22react%22,%22commonjs2%22:%22react%22,%22amd%22:%22react%22,%22root%22:%22React%22%7D?");
-
-/***/ }),
-
-/***/ "react-dom":
-/*!*****************************************************************************************************!*\
-  !*** external {"commonjs":"react-dom","commonjs2":"react-dom","amd":"react-dom","root":"ReactDOM"} ***!
-  \*****************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-eval("module.exports = undefined;\n\n//# sourceURL=webpack://myWidget/external_%7B%22commonjs%22:%22react-dom%22,%22commonjs2%22:%22react-dom%22,%22amd%22:%22react-dom%22,%22root%22:%22ReactDOM%22%7D?");
+module.exports = __WEBPACK_EXTERNAL_MODULE__2__;
 
 /***/ })
-
-/******/ })["umd"];
+/******/ ]);
+});
