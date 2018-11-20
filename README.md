@@ -1,4 +1,4 @@
-## Nubank Node Modules Boilerplate
+## Nubank Node Packages Boilerplate
 
 Link da apresentação:
 
